@@ -540,7 +540,7 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 20px;
   font-size: 15px;
   letter-spacing: 0.5px;
   color: #1a1a1a;
@@ -612,26 +612,29 @@ footer p {
   margin-bottom: 18px;
 }
 
+.produk-analisis h3 {
+  color: #042c6c;
+}
+
 @media (max-width: 600px) {
 
-  /* Header mengecil dan rapih */
   header {
-    padding: 10px 25px;
+    padding: 10px 5px;
     width: 100%;
     border-radius: 0;
     flex-direction: column;
-    gap: 10px;
+
   }
 
   nav ul {
-    gap: 20px;
+    gap: 10px;
   }
 
   nav ul li a {
     font-size: 16px;
+    text-align: center;
   }
 
-  /* Hero text mengecil */
   .texts h2 {
     font-size: 32px;
   }
@@ -645,13 +648,11 @@ footer p {
     font-size: 14px;
   }
 
-  /* Analisis card jadi 1 kolom */
   .bingkai-kartu-analisis {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Produk grid jadi 1 kolom */
   .bingkai-kartu-produk {
     grid-template-columns: 1fr;
   }
@@ -660,19 +661,21 @@ footer p {
     width: 90%;
   }
 
-  /* Anggota jadi 1 kolom */
   .bingkai-kartu-anggota {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Contact */
   .contact-box {
     width: 90%;
     padding: 25px 20px;
   }
 
-  /* Footer */
+  .contact-test {
+    justify-content: center;
+    text-align: center;
+  }
+
   footer p {
     font-size: 13px;
   }
