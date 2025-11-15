@@ -619,20 +619,27 @@ footer p {
 @media (max-width: 600px) {
 
   header {
-    padding: 10px 5px;
+    padding: 0px 0px;
     width: 100%;
-    border-radius: 0;
+    height: 150px;
+    border-radius: 10px;
     flex-direction: column;
 
   }
 
+  .logo-gambar {
+    justify-content: center;
+    margin-right: 39px;
+  }
+
   nav ul {
-    gap: 10px;
+    gap: 18px;
   }
 
   nav ul li a {
     font-size: 16px;
     text-align: center;
+    font-weight: 700;
   }
 
   .texts h2 {
@@ -654,11 +661,12 @@ footer p {
   }
 
   .bingkai-kartu-produk {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
 
   .kartu-produk {
     width: 90%;
+    justify-content: center;
   }
 
   .bingkai-kartu-anggota {
@@ -672,11 +680,69 @@ footer p {
   }
 
   .contact-test {
-    justify-content: center;
-    text-align: center;
+    margin: 20px auto;
   }
 
   footer p {
     font-size: 13px;
   }
+
+  .contact-section {
+  background: linear-gradient(180deg, #86a6c4 0%, #cddcee 100%);;
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  background-color: #3d5a5b;
+  border-radius: 25px;
+  padding: 30px 50px;
+  max-width: 350px;
+  width: 95%;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.contact-box h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  margin-bottom: 17px;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 70px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2f4141;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 }
