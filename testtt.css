@@ -624,6 +624,13 @@ footer p {
   justify-content: stretch;
 
 }
+
+.kartu-als-sf img {
+   width: 200px;
+  height: 250px;
+  justify-content: center;
+  margin: 20px 40px;
+}
 @media (max-width: 600px) {
 
   header {
