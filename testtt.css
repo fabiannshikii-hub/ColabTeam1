@@ -764,4 +764,26 @@ footer p {
   font-weight: 600;
 }
 
+.judul-anggota {
+  font-size: 35px;
+  font-style: oblique;
+  letter-spacing: 2px;
+  color: #042c6c;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700px;
+}
+
+.judul-analisis {
+  font-size: 35px;
+  font-style: oblique;
+  letter-spacing: 2px;
+  color: #042c6c;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700px;
+}
+
 }
