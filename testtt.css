@@ -619,22 +619,11 @@ footer p {
 }
 
 .kartu-als img {
-<<<<<<< HEAD
   width: 200px;
   height: 250px;
   justify-content: stretch;
 
 }
-=======
-  margin: 40px 20px;
-  width: 200px;
-  height: 250px;
-  justify-content: stretch;
-  border-radius: 5px;
-
-}
-
->>>>>>> b11764b (update semua file)
 @media (max-width: 600px) {
 
   header {
@@ -799,11 +788,8 @@ footer p {
   font-weight: 700px;
 }
 
-<<<<<<< HEAD
-=======
 .kartu-als-gmbr img {
   width: 200px;
   height: 150px;
 }
->>>>>>> b11764b (update semua file)
 }
