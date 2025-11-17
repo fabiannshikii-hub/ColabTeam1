@@ -294,7 +294,6 @@ nav ul li a:hover {
   padding: 80px 40px;
   text-align: center;
   background: linear-gradient(180deg, #cce1f1 0%, #a4c7f9 100%);
-
 }
 
 .judul-analisis {
@@ -323,8 +322,6 @@ nav ul li a:hover {
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-  
 
 .kartu-produk:hover {
   transform: translateY(-10px);
@@ -395,7 +392,6 @@ nav ul li a:hover {
 
 .bingkai-kartu-anggota {
   display: flex;
-  grid-template-columns: max-content;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -451,7 +447,7 @@ nav ul li a:hover {
 }
 
 .contact-box {
-  background-color: #3d5a5b;
+  background-color: #2672b0;
   border-radius: 25px;
   padding: 40px 35px;
   max-width: 500px;
@@ -492,8 +488,8 @@ nav ul li a:hover {
   padding: 14px;
   border: none;
   border-radius: 20px;
-  background-color: #2f4141;
-  color: white;
+  background-color: #c8c8f9;
+  color: rgb(69, 68, 68);
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -501,7 +497,8 @@ nav ul li a:hover {
 }
 
 .contact-form button:hover {
-  background-color: #1f2b2b;
+  background-color: #8787a7;
+  color: wheat;
 }
 
 /* Kembali ke beranda */
@@ -632,7 +629,7 @@ footer p {
   margin: 20px 40px;
 }
 @media (max-width: 600px) {
-
+ 
   header {
     padding: 0px 0px;
     width: 100%;
